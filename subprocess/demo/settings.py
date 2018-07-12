@@ -31,15 +31,23 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'material.admin',
+    'material',
+    'material.frontend',
+    'material.templatetags.material_form',
+    'viewflow.frontend',
+    'viewflow',
+    'viewflow.rest',
+    'rest_framework',
+    'rest_framework_swagger',
+    'material.forms',
+    'django.contrib.admin',
+    'django.contrib.admindocs',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'material',
-    'material.frontend',
-    'viewflow',
-    'viewflow.frontend',
     'demo.order',
 ]
 

@@ -3,10 +3,9 @@ from django.utils.decorators import method_decorator
 from viewflow import frontend, flow, lock
 from viewflow.activation import STATUS
 from viewflow.base import Flow, this
-from viewflow.flow.views import CreateProcessView, UpdateProcessView
-
+from viewflow.flow.views import CreateProcessView, UpdateProcessView, DetailSubprocessView
 from . import models, views, forms
-
+from viewflow import frontend
 
 @frontend.register
 class OrderItemFlow(Flow):
