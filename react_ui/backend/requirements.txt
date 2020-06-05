@@ -1,4 +1,4 @@
-django==1.11.4
+django==1.11.29
 djangorestframework==3.7.7
 django-rest-swagger==2.1.2
 django-viewflow-pro==1.1
